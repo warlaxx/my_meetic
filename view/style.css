@@ -1,0 +1,40 @@
+body {
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div#menu {
+    position: relative;
+}
+
+div#menu a {
+    padding: 5px 15px 5px;
+}
+
+.dropdown {
+    padding: 0;
+    background: rgb(255, 76, 76);
+}
+
+ul.drop {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 5px;
+    padding: 5px 5px 0 0;
+    background: rgb(255, 76, 76);
+}
+
+ul.drop li {
+    list-style-type: none;
+}
+
+ul.drop li a {
+    text-decoration: none;
+    padding: 0em 1em;
+    display: block;
+}
